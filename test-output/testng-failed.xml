@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <test name="Yahoo News Test(failed)">
+    <classes>
+      <class name="test.YahooMail">
+        <methods>
+          <include name="Login"/>
+          <include name="connecdb"/>
+          <include name="closeconnedb"/>
+          <include name="gettingurl"/>
+          <include name="logout"/>
+          <include name="closeurl"/>
+        </methods>
+      </class> <!-- test.YahooMail -->
+      <class name="test.TestYahooNews">
+        <methods>
+          <include name="closeurl"/>
+          <include name="test2"/>
+          <include name="gettingurl"/>
+        </methods>
+      </class> <!-- test.TestYahooNews -->
+    </classes>
+  </test> <!-- Yahoo News Test(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->

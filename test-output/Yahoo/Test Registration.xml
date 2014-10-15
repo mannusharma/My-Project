@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="deepaksharma-HP" name="test.TestRegistration" tests="3" failures="0" timestamp="15 Oct 2014 06:41:26 GMT" time="0.002" errors="0">
+  <testcase name="testreg" time="0.0" classname="test.TestRegistration"/>
+  <testcase name="testreg" time="0.0" classname="test.TestRegistration"/>
+  <testcase name="testreg" time="0.0" classname="test.TestRegistration"/>
+</testsuite>

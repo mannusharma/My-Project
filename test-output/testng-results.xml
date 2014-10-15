@@ -1,0 +1,120 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="127" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+    <groups>
+    </groups>
+    <test name="Test Registration" duration-ms="2" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+      <class name="test.TestRegistration">
+        <test-method status="PASS" signature="testreg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="testreg" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testreg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="testreg" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User2L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testreg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="testreg" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User3L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="test.YahooMail">
+        <test-method status="PASS" signature="connecdb()" name="connecdb" is-config="true" duration-ms="9" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="closeconnedb()" name="closeconnedb" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo Mail Test" duration-ms="5" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+      <class name="test.YahooMail">
+        <test-method status="PASS" signature="gettingurl()" name="gettingurl" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="logout()" name="logout" is-config="true" duration-ms="1" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="test1()" name="test1" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="Login()" name="Login" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="Login()" name="Login" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="test2()" name="test2" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="logout()" name="logout" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="closeurl()" name="closeurl" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo News Test" duration-ms="1" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+      <class name="test.TestYahooNews">
+        <test-method status="PASS" signature="gettingurl()" name="gettingurl" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="test2()" name="test2" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+        <test-method status="PASS" signature="closeurl()" name="closeurl" is-config="true" duration-ms="0" started-at="2014-10-15T12:11:26Z" finished-at="2014-10-15T12:11:26Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
